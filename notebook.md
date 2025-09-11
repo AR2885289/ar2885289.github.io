@@ -5,9 +5,10 @@ At the top, begin a table of contents, Ex.:
 - [Flutter Notes](#flutter-notes)
   - [What is Flutter?](#what-is-flutter)
   - [Key Terms](#key-terms-and-definitions)
-- [Day 2](#day-2)
+ - [Code Definitions](#code-definitions)
 
-## Flutter Notes
+
+### Flutter Notes
 
 ### What is Flutter?
 - Definition: A framework made by google for building apps that work on web, Android, and IOS - with one codebase.
@@ -19,11 +20,9 @@ At the top, begin a table of contents, Ex.:
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |Basic building block of a flutter app. Everythimh |Text, Image, Container, Column             |
-|                  |is a widget                                       |                                           |  
+| Widget           |Basic building block of a flutter app Everything is a widget |Text, Image, Container, Column  | 
 | MaterialApp      |The root of the app. Setd up routes and themes.   |Found in main.dart                         |
-| Scaffold         |Provides basic visual layout -- like a header,    |                                           |
-|                  |body, floating button                             |                                           |  
+| Scaffold         |Provides basic visual layout -- like a header, is a widget   |                                |
 | StatelessWidget  |A widget that can change over time                |Used in MyHomePAge()                       |
 | StatefulWidget   |A widget that doesn't change                      |Most of the sreen files                    |
 | Navigator        |Manages paths to navigate between screens         |Navigator.pushNamed(context, '/page2' )    |
@@ -33,6 +32,34 @@ At the top, begin a table of contents, Ex.:
 | Container        |                                                  |                                           |
 | Text             |Displays text                                     |                                           |
 | Image.network    |                                                  |                                           |
+
+
+### Code Definitions
+
+
+| Term | Definition                        | Base Structure / Syntax  | Real Life Example | App Example |
+|------|-----------------------------------|--------------------------|-------------------|-------------|
+|Variable| A named container used to store a value that may change.     | `var x = 5;` |A person's age|Game levels|
+|Constant| A fixed value that cannot change once set.                   | `const PI = 3.14;`|The number of days in a week|A answer in a online test| 
+|Data type| The kind of value a variable holds, like numbers or text.    | `int`, `String`, `bool` |price on a store or texting on your phone|  |
+|String| A sequence of characters used to represent words or text. | `"Hello World"` |Texting|  |
+|Integer| Whole number values. | `int age = 16;` |number of objects in a box|  |
+|Double| Number values with decimals. | `double age = 16.2;` |  |  |
+|Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |The light are on or off|  |
+|List| A collection of values in a specific order. | `List<String> names = [];` |  |  |
+|Null| A special value that means “nothing.” | `String? name = null;` |When you don't have the name of a contanct|  |
+|Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
+|parameter| The information passed into a function to change how it works. | `greet(String name)` |  |  |
+|      | The result a function gives back. | `return total;` |  |  |
+|      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
+|      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+|      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|      | A variable that belongs to a class/object. | `String name;` |  |  |
+|      | A function that belongs to a class. | `void bark() {}` |  |  |
+|      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+|      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+|      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|      | A function that does not return a value. | `void printMessage() {}` |  |  |
 
 ---
 
