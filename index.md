@@ -11,4 +11,4 @@ Welcome to My Portfolio Hello! My name is AR2885289.
 Click here to learn more → [About Me](about.md)
 --
 ## Go to my coding notebook
-[Coding Notebook](notebook.md)
+Click here to go to my notebook → [Coding Notebook](notebook.md)
