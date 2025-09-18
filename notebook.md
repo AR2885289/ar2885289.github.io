@@ -43,30 +43,30 @@ At the top, begin a table of contents, Ex.:
 ---
 ## Flutter Definitions
 
-| Term | Definition and Description | Base Structure | Real Life Example | App Example |
-|------|----------------------------|----------------|-------------------|-------------|
-|main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
-|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |when you login to a new phone|  |
-|Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
-|column| A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` ||  |
-|Row| A widget that shows things side-by-side. | `Row(...)` |  |  |
+| Term | Definition and Description           | Base Structure | Real Life Example | App Example |
+|------|--------------------------------------|----------------|-------------------|-------------|
+|main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` ||in main.dart, void main() => runApp(MyPortafolioApp()); |
+|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |return MaterialApp(debugShowCheckedModelBanner: false, title: 'TSA Portfolio', and more |
+|Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |in showcase.dart, return Scaffold( body: Column(mainAxisAligment: MainAxisAlignment.start, children: |
+|Column| A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |in showcase.dart, Column(, children: const Padding( padding: EdgeInsets.all(8.0), and more
+|Row| A widget that shows things side-by-side. | `Row(...)` |  |in Infocard.dart, Row, children: ClipRRect, borderRadius: BorderRadius.circular(8),|
 |Container| A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
-|Text| A widget to display text on the screen. | `Text('Hello')` |Text form profiles|  |
-|Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |when you google images|  |
+|Text| A widget to display text on the screen. | `Text('Hello')` |  |  |
+|Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
 |ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
-|onPressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
-|StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
-|Navigator| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
-|@override| Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
-|build()| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
-|| Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
-|      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-|      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-|      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
-|      | Required in every widget class to describe what to show. | `build` |  |  |
-|      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-|      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-|      | A keyword that means the value won't change and is set once. | `const` |  |  |
+|onpressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
+|StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |nothing in this app changes|
+|StatefilWidget| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+|Navigator| Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+|Padding| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+|Center| Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
+|Wrap| Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
+|@override| This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+|WidgetBuild| The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+|build()| Required in every widget class to describe what to show. | `build` |  |  |
+|BuildContext| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+|Super.key| A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+|Const| A keyword that means the value won't change and is set once. | `const` |  |  |
 
 ---
 
@@ -75,12 +75,12 @@ At the top, begin a table of contents, Ex.:
 
 | Term | Definition                        | Base Structure / Syntax  | Real Life Example | App Example |
 |------|-----------------------------------|--------------------------|-------------------|-------------|
-|Variable| A named container used to store a value that may change.     | `var x = 5;` |A person's age|Game levels|
-|Constant| A fixed value that cannot change once set.                   | `const PI = 3.14;`|The number of days in a week|A answer in a online test| 
-|Data type| The kind of value a variable holds, like numbers or text.    | `int`, `String`, `bool` |price on a store or texting on your phone|  |
-|String| A sequence of characters used to represent words or text. | `"Hello World"` |Texting|  |
-|Integer| Whole number values. | `int age = 16;` |number of objects in a box|  |
-|Double| Number values with decimals. | `double age = 16.2;` |buy products in a store|  |
+|Variable| A named container used to store a value that may change.     | `var x = 5;` |A person's age|main.dart, string title: 'TSA Portfolio',|
+|Constant| A fixed value that cannot change once set.                   | `const PI = 3.14;`|A answer in a online test|main.dart, const MyPortfolioApp({super.key})|
+|Data type| The kind of value a variable holds, like numbers or text.    | `int`, `String`, `bool` |price on a store or texting on your phone|home.dart, Text|
+|String| A sequence of characters used to represent words or text. | `"Hello World"` |Texting| home.dart, Text 'HI, How are you?',|
+|Integer| Whole number values. | `int age = 16;` |number of objects in a box|home.dart, const SizedBox(height: 20),|
+|Double| Number values with decimals. | `double age = 16.2;` |buy products in a store|background.dart, padding: const EdgeInsets.only(left: 100.0),|
 |Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |The light are on or off|  |
 |List| A collection of values in a specific order. | `List<String> names = [];` |The list of the name of the students|  |
 |Null| A special value that means “nothing.” | `String? name = null;` |When you don't have the name of a contanct|  |
