@@ -50,17 +50,17 @@ At the top, begin a table of contents, Ex.:
 |Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |Temporary structures in construction that help a person while it isa gradually removed in a contruction|in showcase.dart, return Scaffold( body: Column(mainAxisAligment: MainAxisAlignment.start, children: |
 |Column| A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |A column in a store shelv|in showcase.dart, Column(, children: const Padding( padding: EdgeInsets.all(8.0), and more
 |Row| A widget that shows things side-by-side. | `Row(...)` |A row in a store shelv|in Infocard.dart, Row, children: ClipRRect, borderRadius: BorderRadius.circular(8),|
-|Container| A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A shelv|  |
-|Text| A widget to display text on the screen. | `Text('Hello')` |When you write on a paper|  |
-|Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |A painting in an art gallery|  |
-|ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |Any button|  |
-|onpressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |when the light is off or on|  |
-|StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |A menu in a restaurant||
-|StatefilWidget| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |A sign in a wall, like a Wi-Fi Password|nothing in this app changes|
-|Navigator| Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |A social services person that halps people navegate trough the goverment programs|  |
-|Padding| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |Any protection material that is used between the objects|  |
-|Center| Aligns content in the center of the screen or container. | `Center(child: ...)` |A red dot in a gun sight|  |
-|Wrap| Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |Whan you move an object form one box to another|  |
+|Container| A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A shelv|background.dart, return Container, width: 160 etc|
+|Text| A widget to display text on the screen. | `Text('Hello')` |When you write on a paper|background.dart, Text( title, style: const TextStyle(color: Colors.blue, fontWeight: FontWeight.bold), textAlign: TextAlign.center,  |
+|Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |A painting in an art gallery|home.dart, child: Image.network( 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQUUKb_E4DWBUWpOJDP_FSA3ZQOgPWoA8uOPOd3zo6TaU0MCXHarhW05900NPFBAVW0c2okk3jAVcMm6xvem1mSUZeYauVNTXAbl8qX0Q', fit: BoxFit.cover,|
+|ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |Any button|home.dart,  ElevatedButton( onPressed: () => Navigator.pushNamed(context, '/background'),|
+|onpressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |when the light is off or on|home.dart, onPressed: () => Navigator.pushNamed(context, '/background'),|
+|StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |A menu in a restaurant|nothing in this app changes|
+|StatefilWidget| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |A sign in a wall, like a Wi-Fi Password|home.dart, Navigator.|
+|Navigator| Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |A social services person that halps people navegate trough the goverment programs|home.dart, Navigator.pushNamed(context, '/background')|
+|Padding| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |Any protection material that is used between the objects|background.dart, Padding( padding: const EdgeInsets.only(left: 100.0)|
+|Center| Aligns content in the center of the screen or container. | `Center(child: ...)` |A red dot in a gun sight|home.dart, body: Center(, etc|
+|Wrap| Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |Whan you move an object form one box to another|background.dart, Wrap( alignment: WrapAlignment.center, children:|
 |@override| This marks a method as one that’s replacing a method in a parent class. | `@override` |When someone changes his hair style|  |
 |WidgetBuild| The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |When you use the instuctions yo build a lego |  |
 |build()| Required in every widget class to describe what to show. | `build` |Any instructions of how to build something|  |
