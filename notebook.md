@@ -47,26 +47,26 @@ At the top, begin a table of contents, Ex.:
 |------|--------------------------------------|----------------|-------------------|-------------|
 |main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |a chef's recipe|in main.dart, void main() => runApp(MyPortafolioApp()); |
 |MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |the blueprint of a house, for example what color is|return MaterialApp(debugShowCheckedModelBanner: false, title: 'TSA Portfolio', and more |
-|Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |in showcase.dart, return Scaffold( body: Column(mainAxisAligment: MainAxisAlignment.start, children: |
-|Column| A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |in showcase.dart, Column(, children: const Padding( padding: EdgeInsets.all(8.0), and more
-|Row| A widget that shows things side-by-side. | `Row(...)` |  |in Infocard.dart, Row, children: ClipRRect, borderRadius: BorderRadius.circular(8),|
-|Container| A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
-|Text| A widget to display text on the screen. | `Text('Hello')` |  |  |
-|Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
-|ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
-|onpressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
-|StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |nothing in this app changes|
-|StatefilWidget| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
-|Navigator| Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
-|Padding| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
-|Center| Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
-|Wrap| Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-|@override| This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-|WidgetBuild| The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
-|build()| Required in every widget class to describe what to show. | `build` |  |  |
-|BuildContext| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-|Super.key| A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-|Const| A keyword that means the value won't change and is set once. | `const` |  |  |
+|Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |Temporary structures in construction that help a person while it isa gradually removed in a contruction|in showcase.dart, return Scaffold( body: Column(mainAxisAligment: MainAxisAlignment.start, children: |
+|Column| A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |A column in a store shelv|in showcase.dart, Column(, children: const Padding( padding: EdgeInsets.all(8.0), and more
+|Row| A widget that shows things side-by-side. | `Row(...)` |A row in a store shelv|in Infocard.dart, Row, children: ClipRRect, borderRadius: BorderRadius.circular(8),|
+|Container| A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A shelv|  |
+|Text| A widget to display text on the screen. | `Text('Hello')` |When you write on a paper|  |
+|Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |A painting in an art gallery|  |
+|ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |Any button|  |
+|onpressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |when the light is off or on|  |
+|StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |A menu in a restaurant||
+|StatefilWidget| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |A sign in a wall, like a Wi-Fi Password|nothing in this app changes|
+|Navigator| Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |A social services person that halps people navegate trough the goverment programs|  |
+|Padding| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |Any protection material that is used between the objects|  |
+|Center| Aligns content in the center of the screen or container. | `Center(child: ...)` |A red dot in a gun sight|  |
+|Wrap| Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |Whan you move an object form one box to another|  |
+|@override| This marks a method as one that’s replacing a method in a parent class. | `@override` |When someone changes his hair style|  |
+|WidgetBuild| The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |When you use the instuctions yo build a lego |  |
+|build()| Required in every widget class to describe what to show. | `build` |Any instructions of how to build something|  |
+|BuildContext| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |your specific office in a big building|  |
+|Super.key| A keyword used to pass a value to the parent widget. | `super.key` |A music streaming application|  |
+|Const| A keyword that means the value won't change and is set once. | `const` |values that never change like Pi|  |
 
 ---
 
