@@ -45,8 +45,8 @@ At the top, begin a table of contents, Ex.:
 
 | Term | Definition and Description           | Base Structure | Real Life Example | App Example |
 |------|--------------------------------------|----------------|-------------------|-------------|
-|main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` ||in main.dart, void main() => runApp(MyPortafolioApp()); |
-|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |return MaterialApp(debugShowCheckedModelBanner: false, title: 'TSA Portfolio', and more |
+|main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |a chef's recipe|in main.dart, void main() => runApp(MyPortafolioApp()); |
+|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |the blueprint of a house, for example what color is|return MaterialApp(debugShowCheckedModelBanner: false, title: 'TSA Portfolio', and more |
 |Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |in showcase.dart, return Scaffold( body: Column(mainAxisAligment: MainAxisAlignment.start, children: |
 |Column| A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |in showcase.dart, Column(, children: const Padding( padding: EdgeInsets.all(8.0), and more
 |Row| A widget that shows things side-by-side. | `Row(...)` |  |in Infocard.dart, Row, children: ClipRRect, borderRadius: BorderRadius.circular(8),|
