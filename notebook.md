@@ -61,12 +61,12 @@ At the top, begin a table of contents, Ex.:
 |Padding| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |Any protection material that is used between the objects|background.dart, Padding( padding: const EdgeInsets.only(left: 100.0)|
 |Center| Aligns content in the center of the screen or container. | `Center(child: ...)` |A red dot in a gun sight|home.dart, body: Center(, etc|
 |Wrap| Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |Whan you move an object form one box to another|background.dart, Wrap( alignment: WrapAlignment.center, children:|
-|@override| This marks a method as one that’s replacing a method in a parent class. | `@override` |When someone changes his hair style|  |
-|WidgetBuild| The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |When you use the instuctions yo build a lego |  |
-|build()| Required in every widget class to describe what to show. | `build` |Any instructions of how to build something|  |
-|BuildContext| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |your specific office in a big building|  |
-|Super.key| A keyword used to pass a value to the parent widget. | `super.key` |A music streaming application|  |
-|Const| A keyword that means the value won't change and is set once. | `const` |values that never change like Pi|  |
+|@override| This marks a method as one that’s replacing a method in a parent class. | `@override` |When someone changes his hair style|in alt_design_screen.dart, @override, Widget build(BuildContext context)|
+|WidgetBuild| The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |When you use the instuctions yo build a lego |in alt_design_screen.dart, Widget build(BuildContext context) { final List<Map<String, String>> dogInfo = [|
+|build()| Required in every widget class to describe what to show. | `build` |Any instructions of how to build something|in alt_design_screen.dart, build(BuildContext context|
+|BuildContext| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |your specific office in a big building|in alt_design_screen.dart, (BuildContext context) { final List<Map<String, String>> dogInfo = [  |
+|Super.key| A keyword used to pass a value to the parent widget. | `super.key` |A music streaming application|in Info.Card, super.key, required this.imageUrl, required this.description,|
+|Const| A keyword that means the value won't change and is set once. | `const` |values that never change like Pi|in Info.Card,  margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16), padding: const EdgeInsets.all(12),|
 
 ---
 
