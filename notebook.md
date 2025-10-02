@@ -7,7 +7,7 @@ At the top, begin a table of contents, Ex.:
   - [Key Terms and Definitions](#key-terms-and-definitions)
   - [Layout and Design Widgets](layout-and-design-widgets)
   - [Definitions with Structures](#flutter-definitions)
- - [Code Definitions](#code-definitions)
+- [Code Definitions](#code-definitions)
 
 
 # Flutter Notes
