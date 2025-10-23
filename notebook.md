@@ -96,6 +96,14 @@ At the top, begin a table of contents, Ex.:
 |Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |when you clik on the space bar|  |
 |Override| Changing how a built-in or inherited function behaves. | `@override` |When you overwrite something like your speed|  |
 |Void| A function that does not return a value. | `void printMessage() {}` |When you change your name|  |
+|          |          |         |           |         |
+|          |          |         |           |         |
+|Scanner| Creates a scanner object to take input from user | Scanner in = new Scanner(System.in);|           |         |
+|Import Scanner| Gives access to Scanner class, requires at top | import java.until.Scanner; |           |         |
+|Print line statement| prints the contnt in the parenthesis, adds lie after | System.out.print(" "); |           |         |
+|Print statement| prints the content in the parethesis, adds line after | System.out.print(" ") |           |         |
+|Input nextLine| reads in a String from the user | reads in a String from the user |  input.nextLine();|         |
+|          |          |         |           |         |
 
 ---
 
