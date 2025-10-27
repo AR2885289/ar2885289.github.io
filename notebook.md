@@ -103,8 +103,9 @@ At the top, begin a table of contents, Ex.:
 |Print line statement| prints the contnt in the parenthesis, adds lie after | System.out.print(" "); |           |         |
 |Print statement| prints the content in the parethesis, adds line after | System.out.print(" ") |           |         |
 |Input nextLine| reads in a String from the user | reads in a String from the user |  input.nextLine();|         |
-|          |          |         |           |         |
-
+|Input nextInt| Reads in an int from the user | input.nextInt(); |           |         |
+|Input nextDouble| Reads in a double (decimal) from the user | input.nextDouble(); |           |         |
+|Input nextBoolean| Reads in boolean (true/false form the user | input.necxtBoolean |           |         |
 ---
 
 
