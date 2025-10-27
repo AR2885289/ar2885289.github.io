@@ -106,6 +106,8 @@ At the top, begin a table of contents, Ex.:
 |Input nextInt| Reads in an int from the user | input.nextInt(); |           |         |
 |Input nextDouble| Reads in a double (decimal) from the user | input.nextDouble(); |           |         |
 |Input nextBoolean| Reads in boolean (true/false form the user | input.necxtBoolean |           |         |
+|Arithmetic operators|            |  + - * / % (modulid, return the remainder from dividing) |           |         |
+|Compound operators| applies the result to the variable | += -= *= %= ++(adds 1)|           |         |
 ---
 
 
