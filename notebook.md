@@ -106,8 +106,14 @@ At the top, begin a table of contents, Ex.:
 |Input nextInt| Reads in an int from the user | input.nextInt(); |           |         |
 |Input nextDouble| Reads in a double (decimal) from the user | input.nextDouble(); |           |         |
 |Input nextBoolean| Reads in boolean (true/false form the user | input.necxtBoolean |           |         |
-|Arithmetic operators|            |  + - * / % (modulid, return the remainder from dividing) |           |         |
+|Arithmetic operators|  + - * / % (modulid, return the remainder from dividing)  |     |           |         |
 |Compound operators| applies the result to the variable | += -= *= %= ++(adds 1)|           |         |
+|Maximum int| The max value an int can hold: 2147483647 | Integer.MAX_VALUE |           |         |
+|Minimum int| The minimum value an int can hold: -2147483648 | Integer.MIN_VALUE |           |         |
+|Integer overflow| Int MAX_VALUE + 1 == MIN_VALUE, it wraps around  a |         |           |         |
+|integer uderflow| When the resul is below MIN_VALUE |         |           |         |
+|Round-off error| an approx. of the actual value, result is rounded to the nearest value that fits within the available bits |         |           |         |
+|          |          |         |           |         |
 ---
 
 
