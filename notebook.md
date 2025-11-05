@@ -113,6 +113,7 @@ At the top, begin a table of contents, Ex.:
 |Integer overflow| Int MAX_VALUE + 1 == MIN_VALUE, it wraps around  a |         |           |         |
 |integer uderflow| When the resul is below MIN_VALUE |         |           |         |
 |Round-off error| an approx. of the actual value, result is rounded to the nearest value that fits within the available bits |         |           |         |
+|Overloaded method/function or contructor| USes the same name, but has different parameters | Pizza(), Pizza(String toppings) 2 contructors, first is a default cheese pizza, 2nd has 1 topping |           |         |
 |          |          |         |           |         |
 ---
 
