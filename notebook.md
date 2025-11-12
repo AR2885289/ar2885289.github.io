@@ -114,7 +114,8 @@ At the top, begin a table of contents, Ex.:
 |integer uderflow| When the resul is below MIN_VALUE |         |           |         |
 |Round-off error| an approx. of the actual value, result is rounded to the nearest value that fits within the available bits |         |           |         |
 |Overloaded method/function or contructor| USes the same name, but has different parameters | Pizza(), Pizza(String toppings) 2 contructors, first is a default cheese pizza, 2nd has 1 topping |           |         |
-|          |          |         |           |         |
+|Algorithms| Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
+|Sequencing| Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 ---
 
 
