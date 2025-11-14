@@ -8,6 +8,7 @@ At the top, begin a table of contents, Ex.:
   - [Layout and Design Widgets](layout-and-design-widgets)
   - [Definitions with Structures](#flutter-definitions)
 - [Code Definitions](#code-definitions)
+  - [Sting notes](#string-notes)
 
 
 # Flutter Notes
@@ -116,7 +117,7 @@ At the top, begin a table of contents, Ex.:
 |Overloaded method/function or contructor| USes the same name, but has different parameters | Pizza(), Pizza(String toppings) 2 contructors, first is a default cheese pizza, 2nd has 1 topping |           |         |
 |Algorithms| Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
 |Sequencing| Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
-|index| location value of each character im a String or list, starting at 0 | "Hello" index of 'e' is 1 |         |
+|index| location value of each character in a String or list, starting at 0 | "Hello" index of 'e' is 1 |         |
 |          |          |         |           |         |
 |          |          |         |           |         |
 |          |          |         |           |         |
@@ -124,6 +125,13 @@ At the top, begin a table of contents, Ex.:
 
 
 
+### String Notes
+ - String have indices (plural for index,) which start at 0. "Hello" has indices 0(H), 1(e), 3(1), 4(o).
+ - Final index in a String  is lenght - 1;
+
+
+### String Methods Table
+   <img width="1041" height="413" alt="image" src="https://github.com/user-attachments/assets/5435c123-e28d-4639-91a3-79691f4024c5" />
 
 
 
