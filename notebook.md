@@ -119,7 +119,7 @@ At the top, begin a table of contents, Ex.:
 |Algorithms| Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
 |Sequencing| Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 |index| location value of each character in a String or list, starting at 0 | "Hello" index of 'e' is 1 |         |
-|          |          |         |           |         |
+|Substring| Part of a larger String | "llo" is a subString of "Hello" |           |         |
 |          |          |         |           |         |
 |          |          |         |           |         |
 ---
