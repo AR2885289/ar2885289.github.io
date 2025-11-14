@@ -139,7 +139,7 @@ At the top, begin a table of contents, Ex.:
 
 
 
-##  Notebook Style Guide
+###  Notebook Style Guide
 
 Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
 This ensures your notes are easy for you (and others) to read later.
