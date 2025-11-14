@@ -8,7 +8,8 @@ At the top, begin a table of contents, Ex.:
   - [Layout and Design Widgets](layout-and-design-widgets)
   - [Definitions with Structures](#flutter-definitions)
 - [Code Definitions](#code-definitions)
-  - [Sting notes](#string-notes)
+- [Sting notes](#string-notes)
+- [Notebook Style Guide](#-Style-Guide-for-Coding-Notebooks)
 
 
 # Flutter Notes
@@ -136,7 +137,7 @@ At the top, begin a table of contents, Ex.:
 
 
 
--[Notebook Style Guide](#-Style-Guide-for-Coding-Notebooks)
+
 
 ##  Style Guide for Coding Notebooks
 
