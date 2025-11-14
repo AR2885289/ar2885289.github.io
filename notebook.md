@@ -131,7 +131,8 @@ At the top, begin a table of contents, Ex.:
 
 
 ### String Methods Table
-   <img width="1041" height="413" alt="image" src="https://github.com/user-attachments/assets/5435c123-e28d-4639-91a3-79691f4024c5" />
+   <img width="1210" height="403" alt="image" src="https://github.com/user-attachments/assets/dd920a08-93ff-4d9a-85c8-d30da08e3c4b" />
+
 
 
 
